@@ -1,0 +1,27 @@
+/* .sales_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.banner_img {
+  width: 100%;
+  width: 1420px;
+} */
+
+.sales_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 28px 250px 72px 250px;
+}
+
+.banner_img {
+  display: flex;
+  justify-content: center;
+  width: 1420px;
+}

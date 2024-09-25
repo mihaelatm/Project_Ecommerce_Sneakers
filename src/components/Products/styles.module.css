@@ -1,0 +1,12 @@
+.products {
+  display: flex;
+  padding: 0 250px 172px 250px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.products_title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000;
+}
