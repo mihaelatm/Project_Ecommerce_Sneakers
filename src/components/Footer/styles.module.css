@@ -1,0 +1,63 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #232425;
+  padding: 73px 250px 64px 250px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.footer_contacts {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 0.81;
+  margin-bottom: 39px;
+}
+
+.footer_phone {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 0.81;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 13px;
+}
+
+.footer_email {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 0.81;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 93px;
+}
+
+.footer_rights {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 0.81;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.media_socials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.media_socials_icons {
+  display: flex;
+  gap: 26px;
+  margin-bottom: 170px;
+}
+
+.footer_input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  padding: 15px 201px 15px 0;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 0.81;
+}
