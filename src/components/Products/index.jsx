@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import styles from "./styles.module.css";
 import axios from "axios";
+import ProductCard from "../ProductCard";
 
-function Products() {
+function Products({ product }) {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -28,23 +29,14 @@ function Products() {
   }
 
   return (
-    <section className={styles.products}>
+    <div className={styles.products}>
       <h2 className={styles.products_title}>Товары</h2>
-      <ul className={styles.product_list}>
+      <div className={styles.products_list}>
         {products.map((product) => (
-          <li key={product.id} className={styles.product_item}>
-            <h3>{product.name}</h3>
-            <img
-              src={product.image}
-              alt={product.name}
-              className={styles.product_image}
-            />
-            <p>{product.description}</p>
-            <p>Цена: {product.price}₽</p>
-          </li>
+          <ProductCard key={product.id} product={product} />
         ))}
-      </ul>
-    </section>
+      </div>
+    </div>
   );
 }
 

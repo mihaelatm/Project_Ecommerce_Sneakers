@@ -1,10 +1,15 @@
 .header {
+  background-color: #3b3c3d;
+  padding: 43px 0;
+}
+
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  background-color: #3b3c3d;
-  padding: 43px 250px;
-  max-width: 1920px;
-  margin: 0 auto;
+  align-items: center;
+  width: 100%;
 }
 
 .header_logo {

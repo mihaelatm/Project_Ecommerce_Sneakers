@@ -3,10 +3,10 @@ import Sales from "../Sales";
 
 function Main() {
   return (
-    <div>
+    <>
       <Sales />
       <Products />
-    </div>
+    </>
   );
 }
 

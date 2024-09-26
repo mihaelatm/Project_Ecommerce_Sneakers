@@ -1,17 +1,22 @@
 .footer {
+  background-color: #232425;
+  padding-top: 73px;
+  padding-bottom: 48px;
+}
+
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  background-color: #232425;
-  padding: 73px 250px 64px 250px;
-  max-width: 1920px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .footer_contacts {
-  color: #fff;
   font-size: 24px;
   font-weight: 400;
   line-height: 0.81;
+  color: #fff;
   margin-bottom: 39px;
 }
 

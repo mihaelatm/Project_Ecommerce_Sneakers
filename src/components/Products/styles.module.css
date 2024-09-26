@@ -1,12 +1,16 @@
 .products {
-  display: flex;
-  padding: 0 250px 172px 250px;
-  max-width: 1920px;
-  margin: 0 auto;
+  padding-top: 72px;
+  padding-bottom: 172px;
 }
 
 .products_title {
   font-size: 36px;
   font-weight: 700;
   color: #000;
+}
+
+.products_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 131px;
 }

@@ -7,13 +7,15 @@ import Cart from "./components/Cart";
 
 function App() {
   return (
-    <div className="container">
+    <div className="App">
       <Header />
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/cart" element={<Cart />} />
-        {/* <Route path="/contacts" element={}/> */}
-      </Routes>
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/cart" element={<Cart />} />
+          {/* <Route path="/contacts" element={}/> */}
+        </Routes>
+      </div>
       <Footer />
     </div>
   );
