@@ -1,0 +1,22 @@
+.socials_container {
+  background-color: #fafafa;
+  width: 458px;
+  height: 221px;
+  padding: 18px 65px 0 65px;
+  border-radius: 10px;
+}
+
+.socials_title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 0.81;
+  color: rgba(0, 0, 0, 0.7);
+  opacity: 0.8;
+  text-align: center;
+  margin-bottom: 39px;
+}
+
+.socials {
+  display: flex;
+  gap: 50px;
+}

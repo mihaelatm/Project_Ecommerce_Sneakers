@@ -1,0 +1,13 @@
+.products {
+  padding-top: 72px;
+  padding-bottom: 172px;
+}
+
+.products_title {
+  margin-left: 54px;
+}
+
+.products_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

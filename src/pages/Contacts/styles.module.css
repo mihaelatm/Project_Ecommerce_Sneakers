@@ -1,0 +1,10 @@
+.contacts_container {
+  padding: 0 54px;
+  margin-top: 50px;
+  margin-bottom: 646px;
+}
+
+.contacts {
+  display: flex;
+  gap: 79px;
+}
